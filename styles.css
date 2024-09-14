@@ -1,0 +1,86 @@
+/* Creator Playground - CSS Starter File */
+
+:root {
+    --primary-color: #ffffff;
+    --background-color: #1c21fc;
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 640px;
+    }
+
+    #mailinglist .container {
+        max-width: 600px;
+    }
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding-top: 10rem;
+}
+
+#mailinglist {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 3rem;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: none;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+p.small {
+    font-size: 1rem;
+}
+
+.header {
+    margin-bottom: 4rem;
+}
+
+.logo {
+    width: 30px;
+}
+
+#getWaitlistContainer {
+    
+}
+
+#getWaitlistContainer input {
+    font-size: .95em;
+    padding: .8rem !important;
+    font-weight: 400 !important;
+    border-radius: .25rem !important;
+    border-width: 1px !important;
+}
+
+#getWaitlistContainer button {
+    padding: .8rem 0 !important;
+    width: 30%;
+    font-size: .96em;
+    font-weight: 400 !important;
+    border: 1px solid var(--primary-color);
+    border-radius: 1000rem !important;
+    border-width: px !important;
+}
+
+.gw-p-2 {
+    padding: 0 !important;
+}

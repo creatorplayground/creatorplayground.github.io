@@ -5,6 +5,9 @@ function Home() {
     <div className="min-h-screen flex items-center justify-center bg-neutral-50">
       <Helmet>
         <title>Creator Playground • Building for independent creators</title>
+        <meta http-equiv="Cache-Control" content="no-store" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
         <meta
           name="description"
           content="Developing platforms that give creators access to the expertise, systems, and support they need to succeed."
